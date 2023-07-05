@@ -1,6 +1,6 @@
 # --UC1--
 CREATE DATABASE AddressBookDB;
-
+ 
 # --UC2--
 USE AddressBookDB;
 CREATE TABLE AddressBook (
