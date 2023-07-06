@@ -17,7 +17,7 @@ CREATE TABLE AddressBook (
 
 # --UC3--
 INSERT INTO AddressBook (FirstName, LastName, Address, City, State, Zip, PhoneNumber, Email)
-VALUES ('kaidhathuli', 'priya', '123 Main St', 'hyd', 'Ts', '12345', '123-456-7890', 'kaidhathulipriyanka@gmai.com');
+VALUES ('kaidhathuli', 'priya', '19-4-376/2', 'tpt', 'ap', '12345', '123-456-7890', 'kaidhathulipriyanka@gmai.com');
 
 # --UC4--
 UPDATE AddressBook
