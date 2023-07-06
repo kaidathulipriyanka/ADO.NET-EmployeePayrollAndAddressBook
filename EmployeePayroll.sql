@@ -21,7 +21,7 @@ VALUES ('sairam', 35000, '2020-02-20'),
 SELECT * FROM employee_payroll;
 
 #-- UC5: View Data --
-SELECT Salary FROM employee_payroll WHERE name = 'sairam';
+SELECT Salary FROM employee_payroll WHERE name = 'priyanka';
 SELECT * FROM employee_payroll WHERE StartDate BETWEEN CAST('2020-02-20' AS DATE) AND GETDATE();
 
 #-- UC6: Alter and Update --
