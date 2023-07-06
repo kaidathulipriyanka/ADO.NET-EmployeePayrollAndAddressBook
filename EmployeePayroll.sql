@@ -13,9 +13,9 @@ CREATE TABLE employee_payroll (
 
 #-- UC3: Inserting new records in the existing table--
 INSERT INTO employee_payroll (name, Salary, StartDate)
-VALUES ('sairam', 35000, '2020-02-20'),
-       ('mahesh', 38000, '2020-03-07'),
-       ('sathosh', 43000, '2022-05-16');;
+VALUES ('priya', 35000, '2020-02-20'),
+       ('pooji', 38000, '2020-03-07'),
+       ('prasanya', 43000, '2022-05-16');;
 
 #-- UC4: Retrieving data from table --
 SELECT * FROM employee_payroll;
