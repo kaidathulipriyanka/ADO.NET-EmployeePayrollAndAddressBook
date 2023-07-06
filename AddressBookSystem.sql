@@ -10,27 +10,27 @@ CREATE TABLE AddressBook (
     Address VARCHAR(100),
     City VARCHAR(50),
     State VARCHAR(50),
-    Zip VARCHAR(10),
+    Zip VARCHAR(100)
     PhoneNumber VARCHAR(15),
     Email VARCHAR(100)
 );
 
 # --UC3--
 INSERT INTO AddressBook (FirstName, LastName, Address, City, State, Zip, PhoneNumber, Email)
-VALUES ('sai', 'ram', '123 Main St', 'hyd', 'Ts', '12345', '123-456-7890', 'battusairam@gmail.com');
+VALUES ('kaidhathuli', 'priya', '123 Main St', 'hyd', 'Ts', '12345', '123-456-7890', 'kaidhathulipriyanka@gmai.com');
 
 # --UC4--
 UPDATE AddressBook
-SET Address = 'main kdp 1-50', City = 'Hyderabad', State = 'telangana', Zip = '54321'
-WHERE FirstName = 'sai' AND LastName = 'ram';
+SET Address = '19-4-376/2', City = 'tirupathi', State = 'andhra pradesh', Zip = '517501'
+WHERE FirstName = 'kaidhathuli' AND LastName = 'priya';
 
 # --UC5--
 DELETE FROM AddressBook
-WHERE FirstName = 'sai' AND LastName = 'ram';
+WHERE FirstName = 'kaidhathuli' AND LastName = 'priyanka';
 
 # --UC6--
 SELECT * FROM AddressBook
-WHERE City = 'hyd' OR State = 'Ts';
+WHERE City = 'tpt' OR State = 'ap';
 
 # --UC7--
 SELECT City, State, COUNT(*) AS Size
